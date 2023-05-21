@@ -1,0 +1,77 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 36px;
+    background-color: #fff;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 112px;
+  }
+  
+  .container img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .container button.login-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container .social-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .container button.facebook-btn {
+    width: 48%;
+    padding: 10px;
+    background-color: #3b5998;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container button.google-btn {
+    width: 48%;
+    padding: 10px;
+    background-color: #db4a39;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .container a.forgot-password {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
